@@ -20,8 +20,4 @@ Konfirmasi bahwa PHP 8.3 telah terinstal:
 ```bash
 php-fpm8.3 -v
 ```
-## Configure PHP
-buka www.conf
-```bash
-sudo nano /etc/php/8.3/fpm/pool.d/www.conf
-```
+
