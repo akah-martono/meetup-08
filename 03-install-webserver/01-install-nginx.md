@@ -133,6 +133,12 @@ events {
 }
 
 http {
+    
+    # webp map
+    map $http_accept $webp_suffix{
+        default "";
+        "~*webp" ".webp";
+    }
 
     ##
     # Basic Settings
