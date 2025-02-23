@@ -28,3 +28,10 @@ Install WordPress
 wp core install --skip-email --url=https://www.mitra.web.id --title='Workshop WPBogor' --admin_user=akah --admin_email=akah@wpbogor.org --admin_password='password'
 ```
 
+Uninstall Plugin dan Theme yang tidak diperlukan
+```bash
+wp plugin delete akismet
+wp plugin delete hello
+wp theme delete twentytwentyfour
+wp theme delete twentytwentythree
+```

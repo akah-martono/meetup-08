@@ -32,6 +32,10 @@ server {
     root /home/mitra/mitra.web.id/public/;
     index index.php;
 
+    location / {
+        try_files $uri $uri/ /index.php?$args;
+    }
+    
     location ~ \.php$ {
         try_files $uri =404;
         fastcgi_split_path_info ^(.+\.php)(/.+)$;
