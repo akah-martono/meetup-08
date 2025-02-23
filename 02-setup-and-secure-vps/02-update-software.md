@@ -1,12 +1,6 @@
-## Setup Timezone & Update Software
+# Update Software
 
-### Setup Timezone
-Menyesuaikan waktu server dengan timezone kita
-```bash
-sudo dpkg-reconfigure tzdata
-```
-
-### Update Software Package
+## Update Software Package
 Memperbarui daftar paket software pada linux
 ```bash
 sudo apt update -y
@@ -20,7 +14,7 @@ Menghapus paket-paket software yang sudah tidak terpakai
 sudo apt autoremove
 ```
 
-### Reboot Server
+## Reboot Server
 ```bash
 sudo reboot now
 ```
